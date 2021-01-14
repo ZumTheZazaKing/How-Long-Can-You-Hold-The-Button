@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:burlywood;
+}
+
+#button{
+    height: 150px;
+    width: 150px;
+    background-color: cornflowerblue;
+    border-radius: 100px;
+    box-shadow: 0 20px darkblue;
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#button:active{
+    box-shadow: 0 10px darkblue;
+    transform: translateY(10px);
+}
+
+#timer{
+    color: white;
+    font-size: 48px;
+    font-family: 'Quicksand';
+}
+
+#title{
+    font-family: 'Quicksand';
+    font-size: 36px;
+}
+
+#high{
+    font-family: 'Quicksand';
+    font-size: 28px;
+}
+
+#score{
+    font-family: 'Quicksand';
+    font-size: 40px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+#results{
+    font-size: 72px;
+}
+
+.hide{
+    display: none;
+}
+
+#playAgain{
+    font-size: 24px;
+    font-family: 'Quicksand';
+    padding: 10px 20px;
+    border: 1px solid deeppink;
+    border-radius: 50px;
+    color: deeppink;
+    transition: .2s ease-in;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+#playAgain:hover{
+    color: white;
+    background-color: deeppink;
+}
