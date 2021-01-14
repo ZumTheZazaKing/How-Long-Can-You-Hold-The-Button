@@ -8,9 +8,9 @@ let playeScoreContainer = document.getElementById('score');
 
 let playAgainButton = document.getElementById('playAgain')
 
-localStorage.setItem('best', 0);
-
 bestScore.innerHTML = localStorage.getItem('best');
+
+localStorage.setItem('best');
 
 let counter = 0;
 
