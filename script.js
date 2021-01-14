@@ -10,8 +10,6 @@ let playAgainButton = document.getElementById('playAgain')
 
 bestScore.innerHTML = localStorage.getItem('best');
 
-localStorage.setItem('best');
-
 let counter = 0;
 
 function setTimer(){
